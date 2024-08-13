@@ -3,7 +3,7 @@
 % ======  LOADING PACKAGES  ====================================================
 \usepackage{import}
 
-\setlength{\cftbeforetoctitleskip}{1em}
+% \setlength{\cftbeforetoctitleskip}{1em}
 
 % Bibliography
 \usepackage{cite}
@@ -60,18 +60,12 @@
 
 % ======  Manipulating packages  ===============================================
 
-\numberwithin{equation}{document}
-\counterwithout{figure}{chapter}
-\counterwithout{equation}{chapter}
-
-\theoremstyle{plain}
-\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}[theorem]{Corrolary}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{conjecture}[theorem]{Conjecture}
 \newtheorem{question}[theorem]{Question}
 
-\theoremstyle{definition}
 \newtheorem{definition}[theorem]{Definition}
 
 \theoremstyle{remark}
