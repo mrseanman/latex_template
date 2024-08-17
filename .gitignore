@@ -1,60 +1,6 @@
-# LaTeX auxiliary files
-*.aux
-*.log
-*.out
-*.toc
-*.lof
-*.lot
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.synctex(busy)
-*.nav
-*.snm
-*.vrb
-*.bbl
-*.blg
-*.run.xml
-*.bcf
-*.tdo
-
-# Generated PDFs and DVI files
-# *.pdf
-# *.dvi
-# *.ps
-
-# PostScript files
-*.eps
-
-# Backup files
-*~
-*.bak
-*.backup
-*.sav
-*.tmp
-
-# Temporary files
-*.dpth
-*.md5
-*.spl
-*.xdv
-
-# Intermediate files
-*.brf
-*.glg
-*.glo
-*.gls
-*.ist
-*.acn
-*.acr
-*.alg
-*.glsdefs
-
-# Index and glossary files
-*.idx
-*.ilg
-*.ind
-*.loa
+# Exclude all build files except main output
+build/**/*
+!build/main.pdf
 
 # Archive files
 *.tar.gz
@@ -62,4 +8,3 @@
 
 # Files created by the `latexmk` tool
 latexmkrc
-
